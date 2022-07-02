@@ -1,0 +1,8 @@
+name: Run shell Commands
+on: push
+jobs:
+      run-shell-command:
+      run-on: ubuntu-latest
+      steps:
+      - name: Echo & String
+      run: echo "Hello Security this is my first actions file"
